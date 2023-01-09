@@ -1,0 +1,24 @@
+git config --global user.name "Joel"
+
+git config --global user.email "joeljohnvarghese2@gmail.com"
+
+touch .gitignore
+
+git init
+
+git add .
+
+git commit -m "Initial commit"		//"Initial commit" is just a comment/message that we give, it can be anything
+
+git status
+
+git remote add origin git@github.com:jojova/Calculator.git
+
+git push origin master		//Pushes code into github
+
+//IF ERROR
+ssh-keygen -t ed25519 -C "joeljohnvarghese2@gmail.com"		//Generates SSH key and stores in location later asked
+
+cat /c/Users/joelj/.ssh/id_ed25519.pub		//After cat is the location on the computer where the SSH key is saved (Returns SSH key which needs to be added to your GitHub account/repository depending on the need)
+
+git push master origin
