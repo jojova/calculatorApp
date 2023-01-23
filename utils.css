@@ -50,3 +50,10 @@
     color: white;
     background-color: rgb(246, 153, 6);
 }
+
+.link
+{
+    color: white;
+    text-align: center;
+    font-size: large;
+}
