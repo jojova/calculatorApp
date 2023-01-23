@@ -5,6 +5,7 @@ html, body
     height: 100%;
     width: 100%;
     font-family: 'Questrial', sans-serif;
+    background-color: black;
 }
 
 .button
@@ -13,18 +14,21 @@ html, body
     margin: 0px 5px;
     border: 2px solid black;
     border-radius: 9px;
-    cursor: pointer; 
+    cursor: pointer;
+    font-size: large;
 }
 
 .row
 {
-    margin: 8px 0;
+    margin: 10px 0;
 }
 
 .row input {
+    color: white;
+    background-color: black;
     margin: 0;
     padding: 10px 4px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 5px;
     font-size: 19px;
 }

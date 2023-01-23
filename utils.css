@@ -1,5 +1,6 @@
 .text-center
 {
+    color: white;
     text-align: center;
 }
 
@@ -30,5 +31,22 @@
 
 .long-button
 {
-    width: 7.5vw;
+    width: 7.7vw;
+}
+
+.numerals
+{
+    color: white;
+    background-color: rgb(49, 49, 49);
+}
+
+.special
+{
+    background-color: rgb(159, 159, 159);
+}
+
+.operators
+{
+    color: white;
+    background-color: rgb(246, 153, 6);
 }
