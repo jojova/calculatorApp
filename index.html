@@ -7,55 +7,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="utils.css" rel="stylesheet" type="text/css" />
-    <title>Calculator</title>
+    <title>EasyCalc - Calculator App</title>
     <link rel="shortcut icon" href="Calculator.png" type="image/x-icon">
 </head>
 
 <body>
-    <h1 class="text-center">Calculator App</h1>
+    <div class="card mx-auto">
+        <h1 class="text-center">EasyCalc</h1>
 
-    <div class="container mx-auto flex flex-col items-center">
-        <div class="row">
-            <input class="row" type="text">
-        </div>
+        <div class="container mx-auto flex flex-col items-center">
+            <div class="row">
+                <input class="row" type="text" placeholder="Input">
+            </div>
 
-        <div class="row">
-            <button class="button special long-button">C</button>
-            <button class="button special">%</button>
-            <button class="button operators">/</button>
-        </div>
+            <div class="row">
+                <button class="button special long-button">C</button>
+                <button class="button special">%</button>
+                <button class="button operators">/</button>
+            </div>
 
-        <div class="row">
-            <button class="button numerals">7</button>
-            <button class="button numerals">8</button>
-            <button class="button numerals">9</button>
-            <button class="button operators">*</button>
-        </div>
+            <div class="row">
+                <button class="button numerals">7</button>
+                <button class="button numerals">8</button>
+                <button class="button numerals">9</button>
+                <button class="button operators">*</button>
+            </div>
 
-        <div class="row">
-            <button class="button numerals">4</button>
-            <button class="button numerals">5</button>
-            <button class="button numerals">6</button>
-            <button class="button operators">-</button>
-        </div>
+            <div class="row">
+                <button class="button numerals">4</button>
+                <button class="button numerals">5</button>
+                <button class="button numerals">6</button>
+                <button class="button operators">-</button>
+            </div>
 
-        <div class="row">
-            <button class="button numerals">1</button>
-            <button class="button numerals">2</button>
-            <button class="button numerals">3</button>
-            <button class="button operators">+</button>
-        </div>
+            <div class="row">
+                <button class="button numerals">1</button>
+                <button class="button numerals">2</button>
+                <button class="button numerals">3</button>
+                <button class="button operators">+</button>
+            </div>
 
-        <div class="row">
-            <button class="button numerals long-button">0</button>
-            <button class="button numerals">.</button>
-            <button id="equalTo" class="button operators">=</button>
+            <div class="row">
+                <button class="button numerals long-button">0</button>
+                <button class="button numerals">.</button>
+                <button id="equalTo" class="button operators">=</button>
+            </div>
         </div>
-    </div><hr>
-        
-    <div class="link">
-        <a target="_blank" href="https://github.com/jojova/calculatorApp">https://github.com/jojova/calculatorApp</a>
     </div>
+    <hr>
+        
+    <div class="card mx-auto">
+        <div class="link">
+            <a target="_blank" href="https://github.com/jojova/calculatorApp">github.com/jojova/calculatorApp</a>
+        </div>
+    </div>
+    <hr>
 
     <script src="script.js"></script>
 </body>

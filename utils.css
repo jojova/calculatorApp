@@ -1,6 +1,6 @@
 .text-center
 {
-    color: white;
+    color: rgba(20,47,68,255);
     text-align: center;
 }
 
@@ -36,24 +36,36 @@
 
 .numerals
 {
-    color: white;
-    background-color: rgb(49, 49, 49);
+    color: rgba(20,47,68,255);
+    font-weight: 300;
+    background-color: rgba(1,130,135,255);
 }
 
 .special
 {
-    background-color: rgb(159, 159, 159);
+    color: rgba(20,47,68,255);
+    font-weight: 300;
+    background-color: rgba(77,168,171,255);
 }
 
 .operators
 {
-    color: white;
-    background-color: rgb(246, 153, 6);
+    color: rgba(20,47,68,255);
+    font-weight: 300;
+    background-color: rgba(77,168,171,255);
 }
 
 .link
 {
-    color: white;
     text-align: center;
     font-size: large;
+}
+
+.card
+{
+    width: 300px;
+    background-color: rgba(162,187,207,255);
+    margin-top: 0.4rem;
+    padding: 2rem 2rem 2rem;
+    border-radius: 1rem;
 }
